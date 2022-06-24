@@ -6,7 +6,7 @@ export async function adcionarVilao (vilao){
     values(?,?,?);`
 
     const [resposta] = await con.query(comando,[vilao.nome,vilao.maldades,vilao.poder]) 
-    vilao.id = resposta.InsertID;
+    vilao.id = resposta.insertId;
     return vilao;
 }
 
