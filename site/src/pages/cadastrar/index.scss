@@ -1,0 +1,94 @@
+.page-cadastrar {
+    display: flex;
+    font: 600 18px ;
+    justify-content: center;
+    align-items: center;
+
+
+
+    .consultar{
+
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #ffff;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .titulo{
+        color: #ffff;
+        text-align: center;
+    }
+
+
+    .conteudo {
+        justify-content: center;
+        align-items: center;
+        background-color: #03bb85;
+        padding: 50px 70px;
+        height: 80vh;
+
+
+    }
+    .conteudo > section {
+        flex-grow: 1;
+  
+    }
+
+
+    label {
+        width: 120px;
+
+    
+    }
+
+    .caixa-1{
+        padding: 7px;
+        width: 13rem;
+        border: none;
+    }
+
+    .nome{
+        margin-right: 1.3rem ;
+    }
+
+
+    .caixa-2{
+        padding: 7px;
+        width: 13rem;
+        margin-top: 1em;
+        border: none;
+    }
+
+    .form-colums {
+        display: flex;
+       width: 65rem;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+       margin-top: 4rem;
+    
+    }
+    .form-colums > div:nth-child(1) {
+        margin-right: 50px;
+    }
+
+
+    .btnSalvar {
+        flex-grow: 1;
+        margin-top: 2rem;
+        
+    }
+
+    .salvar{
+        padding: 9px 20px;
+        border-radius: 3rem;
+        border: none;
+    }
+
+   
+}
